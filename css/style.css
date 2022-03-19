@@ -1,3 +1,38 @@
 .hidden {
     display: none;
 }
+
+.flex{
+    display: flex;
+    position: fixed;
+    width : 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#clock{
+    font-size: 30px;
+    color : white;
+}
+
+#quote{
+    color : whitesmoke;
+}
+
+#weather{
+    color : white;
+}
+
+#greeting{
+    color : white;
+}
+
+li{
+    color : white;
+}
+
+body{
+ height: 100vh;
+}
